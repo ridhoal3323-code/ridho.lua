@@ -1,1 +1,159 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
+_G.FishItConfig = _G.FishItConfig or {
+    ["Fishing"] = {
+        ["Auto Perfect"] = false,
+        ["Random Result"] = false,
+
+        ["Auto Favorite"] = true,
+        ["Auto Unfavorite"] = false,
+        ["Fish Name"] = {
+            "Ruby",
+            {Name = "Ruby", Variant = "Gemstone"},
+            -- {Variant = ""}, -- Variant Only
+            -- {Tier = "", Variant = ""},  -- Tier + Variant
+        },
+
+        ["Auto Accept Trade"] = true,
+        ["Auto Friend Request"] = true,
+    },
+    ["Auto Trade"] = {
+        ["Enabled"] = true,
+        ["Whitelist Username"] = {"rdhoall"},
+        ["Category Fish"] = {
+            "Secret",
+            -- {Tier = "", Variant = ""}, -- Tier + Variant
+        },
+        ["Fish Name"] = {
+            "Sacred Guardian Squid","Ruby","King Crab","Queen Crab",
+            {Name = "Ruby", Variant = "Gemstone"},
+            -- {Variant = ""}, -- Variant Only
+        },
+        ["Item Name"] = {
+            "Evolved Enchant Stone",
+        },
+    },
+    ["Farm Coin Only"] = {
+        ["Enabled"] = false, -- Farm coins only [ cant buy rod, bait, enchant, weather ]
+        ["Target"] = 190000,
+    },
+    ["Selling"] = {
+        ["Auto Sell"] = true,
+        ["Auto Sell Threshold"] = "Legendary",
+        ["Auto Sell Every"] = 100,
+    },
+    ["Doing Quest"] = {
+        ["Auto Ghostfinn Rod"] = true,
+        ["Auto Element Rod"] = false,
+        ["Auto Diamond Rod"] = false,
+        ["Unlock Ancient Ruin"] = true,
+        ["Allowed Sacrifice"] = {
+            "Ghost Shark",
+            "Cryoshade Glider",
+            "Panther Eel",
+            "Queen Crab",
+            "King Crab",
+            "Giant Squid",
+            "Blob Shark",
+            "Ghost Shark",
+        },
+        ["FARM_LOC_SECRET_SACRIFICE"] = "Ancient Ruin",
+
+        ["Minimum Rod"] = "Astral Rod",
+    },
+    ["WebHook"] = {
+        ["Link Webhook"] = "",
+        ["Auto Sending"] = false,
+        ["Category"] = {"Secret"},
+
+        ["Link Webhook Quest Complete"] = "",
+    },
+    ["Weather"] = {
+        ["Auto Buying"] = true,
+        ["Minimum Rod"] = "Astral Rod",
+        ["Weather List"] = {
+            "Wind",
+        },
+    },
+    ["Potions"] = {
+        ["Auto Use"] = true,
+        ["Minimum Rod"] = "Astral Rod",
+    },
+    ["Totems"] = {
+        ["Auto Use"] = true,
+        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Buy List"] = {
+            ["Luck Totem"] = 5,
+            "Mutation Totem",
+            "Shiny Totem",
+        },
+    },
+    ["Event"] = {
+        ["Start Farm"] = false,
+        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Event List"] = {
+            "Megalodon Hunt",
+            "Ghost Shark Hunt",
+            "Shark Hunt",
+            -- ["Ancient Lochness Monster"] = false,
+        },
+    },
+    ["Enchant"] = {
+        ["Auto Enchant"] = false,
+        ["Roll Enchant"] = false,
+        ["Evolved Roll Enchant"] = true,
+        ["Enchant List"] = {
+            "SECRET Hunter",
+        },
+        ["Second Enchant"] = false,
+        ["Allowed Sacrifice"] = {
+            "Frostborn Shark",
+            "Cryoshade Glider",
+        },
+        ["Second Enchant List"] = {
+            "Reeler I",
+            "Prismatic I",
+            "Mutation Hunter II",
+        },
+        ["Minimum Rod"] = "Ghostfinn Rod",
+    },
+    ["Bait List"] = {
+        ["Auto Buying"] = true,
+        ["Buy List"] = {
+            "Midnight Bait",
+            "Chroma Bait",
+            "Corrupt Bait",
+            "Aether Bait",
+        },
+        ["Endgame"] = "",
+    },
+    ["Rod List"] = {
+        ["Auto Buying"] = true,
+        ["Buy List"] = {
+            "Grass Rod",
+            "Midnight Rod",
+            "Astral Rod",
+            "Ares Rod",
+            "Angler Rod",
+        },
+        ["Location Rods"] = {
+            ["Fisherman Island"] = {"Starter Rod"},
+            ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
+            ["Tropical Grove"] = {"Astral Rod"},
+            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+        },
+        ["Endgame"] = "",
+    },
+
+    ["ExtremeFpsBoost"] = true,
+    ["UltimatePerformance"] = false,
+    ["Disable3DRender"] = true,
+    ["AutoRemovePlayer"] = true,
+
+    ["AutoReconnect"] = true,
+    ["HideGUI"] = false,
+    ["EXIT_MAP_IF_DISCONNECT"] = false,
+}
+
+script_key="ABE5F121C9CD610EA04474A2E6EAD8A8";
+
+local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
