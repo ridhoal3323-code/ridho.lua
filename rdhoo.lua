@@ -5,6 +5,7 @@ getgenv().SailorPieceConfig = getgenv().SailorPieceConfig or {
         "Rare Chest",
         "Epic Chest",
         "Legendary Chest",
+        "Mythical Chest",
     },
     AutoAscend = true,
     AutoUpgradeAscend = true,
