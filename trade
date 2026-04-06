@@ -2,7 +2,7 @@ script_key="IbpKKZhEZkEvxnmGXKmTZykBzCSyZJFj";
 getgenv().AutoTradeConfig = {
     -- Danh sách acc main (display name hoặc username) - hỗ trợ nhiều acc
     MainAccounts = {
-        "DriftOrbitStorm2009",
+        "rdhoall",
         -- thêm acc main ở đây, ví dụ:
         -- "AccMain2",
         -- "AccMain3",
