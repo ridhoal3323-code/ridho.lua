@@ -1,13 +1,21 @@
 script_key="IbpKKZhEZkEvxnmGXKmTZykBzCSyZJFj";
-getgenv().SailorVIP = {
-    Optimization = {
-        Enable = false,
-        FPSCap = 10,
+getgenv().AutoTradeConfig = {
+    -- Danh sách acc main (display name hoặc username) - hỗ trợ nhiều acc
+    MainAccounts = {
+        "rdhoall",
+        -- thêm acc main ở đây, ví dụ:
+        -- "AccMain2",
+        -- "AccMain3",
     },
 
-    Webhook = {
-        Enable = false, 
-        URL = "https://discord.com/api/webhooks/1489641574819172392/SiSIuDpsjEM_OJMzz6W9KUghNvV13qaShF6HQigu0jcPDrR4pwVCR3BdbjrgFUWFXlvd", 
+    -- Danh sách tên item muốn trade (chỉ cần tên, tự detect category + max quantity)
+    Items = {
+        "Race Reroll",
+        "Clan Reroll",
+        "Mythical Chest",
+        "Aura Crate",
+        "Cosmetic Crate",
+        "Trait Reroll",
     },
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/a8255d759144bb6127c5b72221cce5cd.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/75c7fe88bf77410a404199a69629aae3.lua"))()
