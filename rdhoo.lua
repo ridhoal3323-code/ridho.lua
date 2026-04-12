@@ -1,13 +1,79 @@
 script_key="IbpKKZhEZkEvxnmGXKmTZykBzCSyZJFj";
-getgenv().SailorVIP = {
-    Optimization = {
-        Enable = true, -- On/Off toàn bộ optimization script
-        FPSCap = 10, -- Số FPS cần lock (ví dụ: 10, 15, 30, 60)
+getgenv().AutoTradeConfig = {
+    -- Danh sách acc main (display name hoặc username) - hỗ trợ nhiều acc
+    MainAccounts = {
+        "RIDHOxN1KA",
+        -- thêm acc main ở đây, ví dụ:
+        -- "AccMain2",
+        -- "AccMain3",
     },
 
-    Webhook = {
-        Enable = true, -- On/Off gửi webhook thông báo crate
-        URL = "", 
+    -- Danh sách tên item muốn trade (chỉ cần tên, tự detect category + max quantity)
+    Items = {
+        "Race Reroll",
+        "Clan Reroll",
+        "Mythical Chest",
+        "Aura Crate",
+        "Cosmetic Crate",
+        "Trait Reroll",
+        "Upper Seal",
+        "Passive Shard",
+        "Frost Relic",
+        "Power Shard",
+        "Void Fragment",
+        "Limitless Ring",
+        "Dismantle Fang",
+        "Dark Ring",
+        "Reiatsu Core",
+        "Blood Ring",
+        "Hog Fragment",
+        "Atomic Core",
+        "Soul Flame",
+        "Cursed Flesh",
+        "Infinity Essence",
+        "Phantasm Core",
+        "Slime Core",
+        "Azure Hearth",
+        "Evolution Fragment",
+        "Path Fragment"
+        "Corrupt Crown",
+        "Sage Pulse",
+        "Slime Remnant",
+        "Tempest Seal",
+        "Mirage Pendant"
+        "Illusion Prisms",
+        "Ayoku Fragment",
+        "Evolution Fragment",
+        "Transcendent Core",
+        "Divinity Essence",
+        "Fussion Ring",
+        "Chrysalis Sigil",
+        "Silent Storm",
+        "Yamato Essence",
+        "Frozen Will",
+        "Wyrm Brand",
+        "Black Forest",
+        "Silver Requiem",
+        "Soul Flame",
+        "Spiritual Core",
+        "Soul Fragment",
+        "Shadow Essence",
+        "Void Seed",
+        "Umbral Capsule",
+        "Monarch Core",
+        "Monarch Essence",
+        "Kamish Dagger",
+        "Shadow Crystal",
+        "Atomic Omen",
+        "Eminence Essence",
+        "Shadow Remnant",
+        "Magic Shard",
+        "Abyss Sigil",
+        "Ice Core",
+        "Frozen Brand",
+        "Glacier Remnant",
+        "Battle Shard",
+
     },
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/a8255d759144bb6127c5b72221cce5cd.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/75c7fe88bf77410a404199a69629aae3.lua"))()
