@@ -21,7 +21,6 @@ getgenv().AutoTradeConfig = {
         "Power Shard",
         "Abyss Sigil",
         "Tower Key",
-        "Secret Chest",
         
 
     },
