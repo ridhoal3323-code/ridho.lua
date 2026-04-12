@@ -18,6 +18,9 @@ getgenv().AutoTradeConfig = {
         "Trait Reroll",
         "Upper Seal",
         "Passive Shard",
+        "Power Shard",
+        "Abyss Sigil",
+        "Tower Key",
         
 
     },
