@@ -10,14 +10,7 @@ getgenv().AutoTradeConfig = {
 
     -- Danh sách tên item muốn trade (chỉ cần tên, tự detect category + max quantity)
     Items = {
-        "Race Reroll",
-        "Clan Reroll",
-        "Mythical Chest",
-        "Aura Crate",
-        "Cosmetic Crate",
-        "Trait Reroll",
-        "Passive Shard",
-        "Power Shard",
+        
         "Void Fragment",
         "Limitless Ring",
         "Dismantle Fang",
