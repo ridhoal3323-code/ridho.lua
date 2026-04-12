@@ -14,19 +14,11 @@ getgenv().AutoTradeConfig = {
         "Void Fragment",
         "Limitless Ring",
         "Dismantle Fang",
-        "Dark Ring",
-        "Reiatsu Core",
-        "Blood Ring",
         "Hog Fragment",
-        "Atomic Core",
         "Soul Flame",
         "Cursed Flesh",
         "Infinity Essence",
-        "Phantasm Core",
-        "Slime Core",
         "Azure Hearth",
-        "Evolution Fragment",
-        "Path Fragment"
         "Corrupt Crown",
 
 
