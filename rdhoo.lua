@@ -1,4 +1,4 @@
-script_key="";
+script_key="IbpKKZhEZkEvxnmGXKmTZykBzCSyZJFj";
 getgenv().SailorVIP = {
     Optimization = {
         Enable = true, -- On/Off toàn bộ optimization script
