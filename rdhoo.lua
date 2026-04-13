@@ -19,7 +19,6 @@ getgenv().AutoTradeConfig = {
         "Azure Hearth",
         "Path Fragment"
         "Corrupt Crown",
-        "Malevolent Key",
         "Passive Shard",
 
 
