@@ -20,16 +20,7 @@ getgenv().AutoTradeConfig = {
         "Dark Ring",
         "Reiatsu Core",
         "Blood Ring",
-        "Atomic Core",
-        "Soul Flame",
-        "Cursed Flesh",
-        "Infinity Essence",
-        "Phantasm Core",
-        "Slime Core",
-        "Azure Hearth",
-        "Path Fragment"
-        "Corrupt Crown",
-      
+
 
     },
 }
