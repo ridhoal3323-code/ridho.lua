@@ -10,21 +10,16 @@ getgenv().AutoTradeConfig = {
 
     -- Danh sách tên item muốn trade (chỉ cần tên, tự detect category + max quantity)
     Items = {
-        "Race Reroll",
         "Clan Reroll",
         "Mythical Chest",
         "Aura Crate",
         "Cosmetic Crate",
-        "Trait Reroll",
-        "Passive Shard",
-        "Power Shard",
         "Void Fragment",
         "Limitless Ring",
         "Dismantle Fang",
         "Dark Ring",
         "Reiatsu Core",
         "Blood Ring",
-        "Hog Fragment",
         "Atomic Core",
         "Soul Flame",
         "Cursed Flesh",
@@ -32,7 +27,6 @@ getgenv().AutoTradeConfig = {
         "Phantasm Core",
         "Slime Core",
         "Azure Hearth",
-        "Evolution Fragment",
         "Path Fragment"
         "Corrupt Crown",
       
