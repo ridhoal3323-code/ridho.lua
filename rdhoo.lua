@@ -3,23 +3,25 @@ getgenv().AutoTradeConfig = {
     -- Danh sách acc main (display name hoặc username) - hỗ trợ nhiều acc
     MainAccounts = {
         "RIDHOxN1KA",
-        "rdhoall2",
+        -- thêm acc main ở đây, ví dụ:
+        -- "AccMain2",
+        -- "AccMain3",
     },
 
     -- Danh sách tên item muốn trade (chỉ cần tên, tự detect category + max quantity)
     Items = {
-        "Clan Reroll",
-        "Mythical Chest",
-        "Aura Crate",
-        "Cosmetic Crate",
-        "Void Fragment",
-        "Limitless Ring",
-        "Dismantle Fang",
-        "Dark Ring",
-        "Reiatsu Core",
-        "Blood Ring",
-        "Frost Relic",
-        "Divine Grail",
+        "Trait Reroll",
+        "Soul Flame",
+        "Cursed Flesh",
+        "Infinity Essence",
+        "Phantasm Core",
+        "Slime Core",
+        "Azure Hearth",
+        "Path Fragment"
+        "Corrupt Crown",
+        "Malevolent Key",
+        "Passive Shard",
+        "Race Reroll",
 
 
     },
