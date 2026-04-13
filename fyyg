@@ -10,22 +10,20 @@ getgenv().AutoTradeConfig = {
 
     -- Danh sách tên item muốn trade (chỉ cần tên, tự detect category + max quantity)
     Items = {
-        "Throne Remnant",
-        "Ancient Shard",
-        "Golden Essence",
+        "Clan Reroll",
+        "Mythical Chest",
+        "Aura Crate",
+        "Cosmetic Crate",
+        "Atomic Core",
+        "Soul Flame",
+        "Cursed Flesh",
+        "Infinity Essence",
         "Phantasm Core",
-        "Broken Sword",
-        "Divine Grail",
-        "Moon Crest",
-        "Crescent Shard",
-        "Lunar Essence",
-        "Demon Remnant",
-        "Upper Seal",
-        "Ice Core",
-        "Frost Brand",
-        "Glacier Remnant",
-        "Battle Shard",
-        "Frost Relic",
+        "Slime Core",
+        "Azure Hearth",
+        "Path Fragment"
+        "Corrupt Crown",
+        "Evolution Fragment",
         
 
     },
