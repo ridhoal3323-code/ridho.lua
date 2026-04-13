@@ -10,16 +10,15 @@ getgenv().AutoTradeConfig = {
 
     -- Danh sách tên item muốn trade (chỉ cần tên, tự detect category + max quantity)
     Items = {
-        "Trait Reroll",
         "Soul Flame",
         "Cursed Flesh",
         "Infinity Essence",
         "Phantasm Core",
         "Slime Core",
         "Azure Hearth",
-        "Path Fragment"
-        "Corrupt Crown",
-        "Passive Shard",
+        "Chrysalis Sigil",
+        "Trait Reroll",
+        "Race Reroll",
 
 
     },
