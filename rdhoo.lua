@@ -21,7 +21,6 @@ getgenv().AutoTradeConfig = {
         "Corrupt Crown",
         "Malevolent Key",
         "Passive Shard",
-        "Race Reroll",
 
 
     },
